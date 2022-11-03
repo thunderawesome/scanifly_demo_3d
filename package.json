@@ -1,0 +1,43 @@
+{
+  "name": "scanifly-3d-demo",
+  "version": "1.0.0",
+  "description": "3D rendition of the homepage of Scanifly.",
+  "keywords": [
+    "solar",
+    "scanifly",
+    "three.js",
+    "webgl",
+    "drones"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@react-spring/three": "9.5.5",
+    "@react-three/drei": "9.34.3",
+    "@react-three/fiber": "8.8.10",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@types/three": "0.144.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-postprocessing": "1.4.0",
+    "react-scripts": "5.0.1",
+    "three": "0.145.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
